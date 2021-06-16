@@ -1,4 +1,4 @@
-package com.test.sender;
+package com.demo.test.sender;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
