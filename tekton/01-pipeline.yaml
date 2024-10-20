@@ -21,6 +21,7 @@ spec:
   - name: IMAGE
     type: string
     description: image to be build from the code
+    default: ISingh2015/simplesender
   tasks:
   - name: fetch-repository
     taskRef:
