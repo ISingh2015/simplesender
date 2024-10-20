@@ -64,5 +64,5 @@ spec:
       value: $(params.deployment-name)
     - name: IMAGE
       value: $(params.IMAGE)
-#    runAfter:
-#    - apply-manifests
+    runAfter:
+    - apply-manifests
