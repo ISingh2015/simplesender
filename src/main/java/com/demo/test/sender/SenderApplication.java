@@ -44,7 +44,7 @@ public class SenderApplication {
 		return new ResponseEntity<>("Status Sender App: UP. on : "+ new Date(), HttpStatus.OK);
 	}
 
-	@GetMapping(value = "/customers/getExisting")
+	@GetMapping(value = "/customer/list")
 	public ResponseEntity<ArrayList<Customer>> getAllCustomers() {
 		log.info("{} Customers List {}", new Date(), customerList);
 		return new ResponseEntity<>(customerList,HttpStatus.OK);
